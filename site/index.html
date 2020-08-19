@@ -1,192 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Assignment</title>
-	
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet"  href="css/style.css">
+  <title>Module2-Solution</title>
 </head>
-<style type="text/css">
-*{
-	box-sizing: border-box;
-	
-}
-body{
-	font-size: 20px;
-
-}
-h1{
-	text-align: center;
-	font-size: 40px;
-
-}
-
-#box1{
-	background-color: lightgrey;
-	padding: 10px 10px 10px 10px;
-	border:3px solid black;
-	margin: 40px;
-	width: 400px;
-	height: 200px;
-	position: relative;
-	float: left;
-	margin: 20px;
-}
-#box2{
-	background-color: lightgrey;
-	padding: 10px 10px 10px 10px;
-	border:3px solid black;
-	margin: 40px;
-	width: 400px;
-	height: 200px;
-	position: relative;
-	float: left;
-	margin: 20px;
-}
-#box3{
-	background-color: lightgrey;
-	padding: 10px 10px 10px 10px;
-	border:3px solid black;
-	margin: 40px;
-	width: 400px;
-	height: 200px;
-	position: relative;
-	float: left;
-	margin: 20px;
-}
-#sb1{
-	background-color: pink;
-	padding: 10px 10px 10px 10px;
-	border:1px solid black;
-	margin: 40px;
-	width: 180px;
-	height: 40px;
-	position: absolute;
-	top:82px;
-	left: 208px;
-}
-#sb2{
-	background-color: red;
-	padding: 10px 10px 10px 10px;
-	border:1px solid black;
-	margin: 40px;
-	width: 180px;
-	height: 40px;
-	position: absolute;
-	top:82px;
-	left: 652px;
-}
-#sb3{
-	background-color: yellow;
-	padding: 10px 10px 10px 10px;
-	border:1px solid black;
-	margin: 40px;
-	width: 180px;
-	height: 40px;
-	position: absolute;
-	top:82px;
-	left: 1098px;
-}
-@media(min-width: 992px) and (max-width:1500px )
-{
-	#box1{
-		width: 30%;
-	}
-	#box2{
-		width: 30%;
-	}
-	#box3{
-		width: 30%;
-	}
-	#sb1{
-		width: 13.5%;
-	}
-	#sb2{
-		width: 13.5%;
-	}
-	#sb3{
-		width: 13.5%;
-	}
-
-}
-@media(min-width: 768px) and (max-width: 991px)
-{
-	#box1{
-		width: 40%;
-	}
-	#box2{
-		width: 40%;
-	}
-	#box3{
-		width: 84%;
-	}
-	#sb1{
-		width: 13.5%;
-		position:absolute;
-		top:82px;
-		left: 240px;
-	}
-	#sb2{
-		width: 13.5%;
-		position:absolute;
-		top:82px;
-		left: 668px;
-	}
-	#sb3{
-		width: 13.5%;
-		position:absolute;
-		top:323px;
-		left: 667px;
-		
-	}
-}
-@media(max-width: 767px) 
-{
-	#box1{
-		width: 60%;
-	}
-	#box2{
-		width: 60%
-	}
-	#box3{
-		width: 60%;
-	}
-	#sb1{
-		width: 13.5%;
-		position:absolute;
-		top:82px;
-		left: 325px;
-	}
-	#sb2{
-		width: 13.5%;
-		position:absolute;
-		top:323px;
-		left: 325px;
-		
-	}
-	#sb3{
-		width: 13.5%;
-		position:absolute;
-		top:563px;
-		left: 325px;
-		
-	}
-}
-</style>
-
 <body>
-
-<h1> Our Menu</h1>
-<section>
-	<div>
-		<p id="box1" ><br><br>1.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p id="box2" ><br><br>2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p id="box3" ><br><br>3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p id="sb1">Chicken</p>
-		<p id="sb2">Beef</p>
-		<p id="sb3">Sushi</p>
-		
-		
-	</div>
-</section>
+  <h1>Our Menu</h1>
+  <div class="row">
+  <div class="container col-lg-4 col-md-6 col-sm-12">
+    <section>
+    <div id="chicken">
+      Chicken
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p>
+    </section>
+  </div>
+  <div class="container col-lg-4 col-md-6 col-sm-12">
+    <section>
+    <div id="beef">
+      Beef
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p>
+    </section>
+  </div>
+  <div class="container col-lg-4 col-md-12 col-sm-12">
+    <section>
+    <div id="sushi">
+      Sushi
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p>
+    </section>
+  </div>
+  </div>
 </body>
 </html>
