@@ -1,21 +1,4 @@
 body{
-		background-image: url(D:/fb.jpg);
-		background-size: cover;
-		background-attachment: fixed;
-	}
-	p{
-		color: black;
-		font-size: 30px;
-		width: 300px;
-		 
-	}
-	h1{
-		color: black;
-		font-size: 36px;
-		text-align: center;
-	}
-	a{
-		color: white;
-		font-size: 30px;
-		width: 300px;
+		background-color: green;
+		
 	}
